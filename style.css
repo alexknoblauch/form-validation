@@ -1,0 +1,182 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway";
+}
+
+html {
+  font-size: 62.5%;
+  background-color: rgb(182, 215, 204);
+  line-height: 1;
+}
+
+body {
+  color: #444;
+  font-weight: 500;
+}
+
+input {
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 5px;
+  outline: none;
+  height: 2.6rem;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+  background-color: rgb(182, 215, 204);
+}
+.contactus-title {
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+}
+
+.label {
+  margin-bottom: 5rem;
+}
+
+.form-section {
+  height: 100dvh;
+}
+
+.form-inputs {
+  padding: 2rem 2rem;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.form-container {
+  border-radius: 10px;
+  background-color: white;
+  height: 6rem;
+  width: 40rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 6rem;
+  margin: 30rem auto;
+}
+.form-inputs {
+}
+
+.firstname-box {
+  width: 40rem;
+  gap: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-bottom: 2rem;
+}
+
+.form-firstname {
+  margin-top: 0.5rem;
+  width: 19rem;
+  padding-left: 1rem;
+}
+.form-lastname {
+  margin-top: 0.5rem;
+  width: 19rem;
+  padding-left: 1rem;
+}
+.form-email {
+  width: 100%;
+  margin-top: 0.5rem;
+  padding-left: 1rem;
+}
+.query-box {
+  margin-top: 2rem;
+}
+
+.query-answers-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 1rem;
+  width: 100%;
+}
+
+.query-answer {
+  border: 1px solid #ccc;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: row;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.message {
+  margin-top: 2rem;
+}
+
+.message-box {
+  margin-top: 6rem;
+}
+
+.form-message {
+  margin-top: 0.5rem;
+  height: 10rem;
+  width: 100%;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: none;
+  padding-left: 1rem;
+}
+
+.form-query {
+  cursor: pointer;
+}
+
+.form-query-label {
+  cursor: pointer;
+}
+
+.form-checkbox {
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: row;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.checkbox-text {
+  cursor: pointer;
+}
+
+.form-btn-submit {
+  padding: 1rem;
+  width: 100%;
+  color: white;
+  font-weight: 600;
+  background-color: #0e6d1b;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+  margin-top: 2rem;
+}
+
+.form-btn-submit:checked {
+  border-color: #0e6d1b;
+}
+
+.form-btn-submit:hover {
+  background-color: #0a5214;
+}
+
+.error-message {
+  color: red;
+  margin-top: 1rem;
+}
